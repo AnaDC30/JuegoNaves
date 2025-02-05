@@ -1,0 +1,49 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+
+    <!-- Campo para el nombre del jugador -->
+    <EditText
+        android:id="@+id/edNombreJugador_ADC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Introduce tu nombre"
+        android:inputType="textPersonName"
+        android:textSize="40dp"
+        android:background="#B3FFFFFF"/>
+
+    <!-- Menú desplegable para el nivel de dificultad -->
+    <Spinner
+        android:id="@+id/spinnerDificultad_ADC"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="48dp"
+        android:background="#B3FFFFFF"/>
+
+    <!-- Botón para empezar el juego -->
+    <Button
+        android:id="@+id/btnStartGame_ADC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Iniciar Juego"
+        android:textSize="18sp" />
+
+    <!-- Imagen -->
+    <ImageView
+        android:id="@+id/bgImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:src="@drawable/enemigo" />
+
+</LinearLayout>
+
